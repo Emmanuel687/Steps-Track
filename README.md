@@ -11,6 +11,9 @@ npm start
 
 The app will then be started on port 3000. You can open http://localhost:3000/ in your browser to view the app.
 
+# Images
+![web-screenshot-04-07-2023](https://github.com/Emmanuel687/Step1/assets/93251478/b75392dc-9486-474a-b56c-4324749c0cbb)
+
 # Features
 
 The app has the following features:
