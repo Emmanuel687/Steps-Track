@@ -1,6 +1,6 @@
 # Step Application
 
-This is a simple step application built with React. The app uses event listeners, React states, and updating states to track the number of steps the user has taken.
+This is a simple step application used to track steps on component, It built with React. The app puts into practice the use of event handlers,React states and React conditional rendering.
 
 # Getting Started
 
