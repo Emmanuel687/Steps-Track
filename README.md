@@ -39,4 +39,4 @@ If you would like to contribute to the app, please fork the repository and submi
 
 # License
 
-The app is licensed under the MIT License.
+The app is licensed under the MIT {2023} License.
