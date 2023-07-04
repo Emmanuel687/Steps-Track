@@ -16,7 +16,9 @@ The app will then be started on port 3000. You can open http://localhost:3000/ i
 The app has the following features:
 
 A button that the user can click to go to the next step.
+
 A button that the user can click to go to the previous step.
+
 A button that the user can click to close the application
 
 # Practise Problem
@@ -24,6 +26,7 @@ A button that the user can click to close the application
 1.Understanding how to manage state with a component.
 
 2.Understanding react eventListeners.
+
 3.Understanding conditional rendering in react, && Operator
 
 # Development
