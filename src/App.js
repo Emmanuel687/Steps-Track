@@ -9,6 +9,32 @@ export default function App() {
   return (
     <div>
       <Steps />
+      <StepMessage step={1}>
+        <p>Pass in Content</p>
+        <div className="buttons">
+          <Button
+            bgColor="#e7e7e7"
+            textcolor="#333"
+            onClick={() => alert(`Learn how to ${messages}`)}
+          >
+            Learn How
+          </Button>
+        </div>
+      </StepMessage>
+
+      <StepMessage step={2}>
+        <p>Read Children</p>
+        <div className="buttons">
+          <Button
+            bgColor="#e6e6e6"
+            textcolor="#333"
+            onClick={() => alert(`Learn how to ${messages}`)}
+          >
+            Create
+          </Button>
+        </div>
+      </StepMessage>
+
       {/* <Steps /> */}
     </div>
   );
@@ -42,9 +68,9 @@ function Steps() {
               <div className={step >= 2 ? "active" : ""}>2</div>
               <div className={step >= 3 ? "active" : ""}>3</div>
             </div>
-            <p className="message">
-              Step {step}:{messages[step - 1]}
-            </p>
+
+            <StepMessage step={step}></StepMessage>
+
             <div className="buttons">
               <Button
                 bgColor="#7950f2"
@@ -63,6 +89,16 @@ function Steps() {
           </div>
         )}
       </div>
+    </div>
+  );
+}
+function StepMessage({ step, children }) {
+  return (
+    <div className="message">
+      <h3>
+        Step {step}:{messages[step - 1]}
+      </h3>
+      {children}
     </div>
   );
 }
