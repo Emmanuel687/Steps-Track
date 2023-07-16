@@ -4,7 +4,7 @@ This is a simple step application used to track steps on component, It built wit
 
 # Getting Started
 
-To run the app, you will need to have Node.js and NPM installed. Once you have those installed, you can run the following commands to install the dependencies and start the app:
+To run the app, you will need to have Node.js and NPM installed. Once you have those installed, you can run the following commands to install the dependencies and start the app
 
 npm install
 npm start
